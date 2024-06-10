@@ -13,12 +13,21 @@ public class EX13_Media_o_Semestre {
             media = (notas[0] + notas[1] + notas[2] + notas[3]) / 4;
         }
 
-        if (media == 10) {
-            System.out.print("Aprovado com distinção");
-        } else if (media >= 7.0) {
-            System.out.print("Aprovado");
-        } else if (media < 70) {
-            System.out.print("Reprovado");
+        if (media >= 9 && media <= 10) {
+            System.out.print("A");
+            System.out.println("\nAprovado");
+            } else if (media >= 7.5 && media < 9) {
+                System.out.print("B");
+                System.out.println("\nAprovado");
+            } else if (media >= 6 && media < 7.5) {
+                System.out.print("C");
+                System.out.println("\nAprovado");
+            } else if (media >= 4 && media < 7.5) {
+                System.out.print("D");
+                System.out.println("\nReprovado");
+            } else if (media >= 0 && media < 4) {
+                System.out.print("E");
+                System.out.println("\nReprovado");
         }
     }
 
