@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Folha_de_pagamento {
+public class EX11_Folha_de_Pagamento {
 
     public static void Folha() {
         Scanner sc = new Scanner(System.in);
