@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX19_Caixa_Eletronico {
+public class EX21_Caixa_Eletronico {
 
     public static void CaixaEletronico() {
         Scanner sc = new Scanner(System.in);

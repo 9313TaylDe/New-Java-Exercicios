@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX14_Formar_Triangulo {
+public class EX15_Formar_Triangulo {
 
     public static void Triangulo() {
         Scanner sc = new Scanner(System.in);

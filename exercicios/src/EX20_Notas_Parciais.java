@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX18_Notas_Parciais {
+public class EX20_Notas_Parciais {
     public static void Notas() {
         Scanner sc = new Scanner(System.in);
 

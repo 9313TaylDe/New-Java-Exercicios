@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX21_Inteiro_ou_ecimal {
+public class EX22_Inteiro_ou_ecimal {
 
     public static void InteiroDecimal(){
         Scanner sc = new Scanner(System.in);

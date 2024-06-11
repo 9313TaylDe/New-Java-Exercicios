@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX16_Ano_Valido {
+public class EX18_Ano_Valido {
     public static void AnoValido() {
         Scanner sc = new Scanner(System.in);
 

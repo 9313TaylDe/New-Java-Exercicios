@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX12_Dia_da_Semana {
+public class EX13_Dia_da_Semana {
     public static void Dias() {
         Scanner sc = new Scanner(System.in);
 

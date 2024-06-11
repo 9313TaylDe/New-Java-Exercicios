@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX15_Ano_Bissexto {
+public class EX17_Ano_Bissexto {
 
     public static void Bissexto() {
         Scanner sc = new Scanner(System.in);

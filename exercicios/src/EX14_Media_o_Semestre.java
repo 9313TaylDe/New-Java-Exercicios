@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX13_Media_o_Semestre {
+public class EX14_Media_o_Semestre {
 
     public static void Media() {
         Scanner sc = new Scanner(System.in);

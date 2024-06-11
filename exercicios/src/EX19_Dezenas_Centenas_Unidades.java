@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX17_Dezenas_Centenas_Unidades {
+public class EX19_Dezenas_Centenas_Unidades {
     public static void DCU() {
         Scanner sc = new Scanner(System.in);
 

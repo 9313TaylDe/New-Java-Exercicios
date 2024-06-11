@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EX10_Organizacoes_Tabajara {
+public class EX11_Organizacoes_Tabajara {
 
     public static void Reajuste_Salario() {
         Scanner sc = new Scanner(System.in);

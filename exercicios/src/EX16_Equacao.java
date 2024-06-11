@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class EX14_Equacao {
+public class EX16_Equacao {
 
     public static void Equa() {
         Scanner sc = new Scanner(System.in);
