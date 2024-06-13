@@ -22,27 +22,27 @@ public class EX25_Jogo_Detetive {
 
         if (telefonou.equalsIgnoreCase("sim")) {
             cont++;
-        } else if (telefonou.equalsIgnoreCase("não") || telefonou.equalsIgnoreCase("nao")) {
+        }else if(telefonou.equalsIgnoreCase("não") || telefonou.equalsIgnoreCase("nao")){
             cont--;
         }
         if (era_proximo.equalsIgnoreCase("sim")) {
             cont++;
-        } else if (era_proximo.equalsIgnoreCase("não") || era_proximo.equalsIgnoreCase("nao")) {
+        }else if(era_proximo.equalsIgnoreCase("não") || era_proximo.equalsIgnoreCase("nao")){
             cont--;
         }
         if (morava_proximo.equalsIgnoreCase("sim")) {
             cont++;
-        } else if (morava_proximo.equalsIgnoreCase("não") || morava_proximo.equalsIgnoreCase("nao")) {
+        }else if(morava_proximo.equalsIgnoreCase("não") || morava_proximo.equalsIgnoreCase("nao")){
             cont--;
         }
         if (devia_para_vitima.equalsIgnoreCase("sim")) {
             cont++;
-        } else if (devia_para_vitima.equalsIgnoreCase("não") || devia_para_vitima.equalsIgnoreCase("nao")) {
+        }else if(devia_para_vitima.equalsIgnoreCase("não") || devia_para_vitima.equalsIgnoreCase("nao")){
             cont--;
         }
         if (trabalhou_com_vitima.equalsIgnoreCase("sim")) {
             cont++;
-        } else if (trabalhou_com_vitima.equalsIgnoreCase("não") || trabalhou_com_vitima.equalsIgnoreCase("nao")) {
+        }else if(trabalhou_com_vitima.equalsIgnoreCase("não") || trabalhou_com_vitima.equalsIgnoreCase("nao")){
             cont--;
         }
 
