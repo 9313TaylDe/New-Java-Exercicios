@@ -1,3 +1,4 @@
+package exercicios1;
 import java.util.Scanner;
 
 public class EX25_Jogo_Detetive {

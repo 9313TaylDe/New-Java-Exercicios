@@ -1,3 +1,4 @@
+package exercicios1;
 import java.util.Scanner;
 
 public class EX14_Media_o_Semestre {

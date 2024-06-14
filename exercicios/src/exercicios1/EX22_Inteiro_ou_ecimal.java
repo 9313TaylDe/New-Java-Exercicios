@@ -1,3 +1,4 @@
+package exercicios1;
 import java.util.Scanner;
 
 public class EX22_Inteiro_ou_ecimal {

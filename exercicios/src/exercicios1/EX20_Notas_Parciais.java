@@ -1,3 +1,4 @@
+package exercicios1;
 import java.util.Scanner;
 
 public class EX20_Notas_Parciais {

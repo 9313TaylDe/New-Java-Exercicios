@@ -1,3 +1,5 @@
+package exercicios1;
+
 import java.util.Scanner;
 
 public class EX26_Posto_de_Combustivel {

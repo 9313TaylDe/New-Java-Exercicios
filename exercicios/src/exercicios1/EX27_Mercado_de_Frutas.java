@@ -1,3 +1,5 @@
+package exercicios1;
+
 import java.util.Scanner;
 
 public class EX27_Mercado_de_Frutas {
