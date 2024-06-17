@@ -17,17 +17,17 @@ public class EX18_Maior_Menor_Soma {
             numero[i] = sc.nextInt();
             num = numero[i];
 
-            if(num > maior){
+            if (num > maior) {
                 maior = num;
             }
-            if(num < menor){
+            if (num < menor) {
                 menor = num;
             }
             soma += num;
         }
-        System.out.println(menor);
-        System.out.println(""+maior);
-        System.out.println("\nSoma: %d", soma); 
+        System.out.printf("\nO menor: ", menor);
+        System.out.printf("\nMaior: ", maior);
+        System.out.printf("\nSoma: %d", soma);
     }
 
     public static void main(String[] args) {
