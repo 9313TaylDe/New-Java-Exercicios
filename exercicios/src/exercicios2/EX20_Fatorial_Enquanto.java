@@ -2,7 +2,7 @@ package exercicios2;
 
 import java.util.Scanner;
 
-public class EX19_Fatorial_Enquanto {
+public class EX20_Fatorial_Enquanto {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int fatorial = 0;
