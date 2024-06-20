@@ -10,20 +10,20 @@ public class EX21_Primos {
         int numero = sc.nextInt();
         boolean primo = true;
 
-        if(numero <= 1){
+        if (numero <= 1) {
             primo = false;
             System.out.print("PROGRAMA ENCERRADO!\n");
-        }else {
-            for(int i = 2; i < numero / 2; i ++){
-                if(numero % i == 0){
+        } else {
+            for (int i = 2; i < numero / 2; i++) {
+                if (numero % i == 0) {
                     primo = false;
                     break;
                 }
             }
         }
-        if(primo){
+        if (primo) {
             System.out.printf("O número %d é primo", numero);
-        }else {
+        } else {
             System.out.printf("O número %d não é primo", numero);
         }
     }
