@@ -9,11 +9,14 @@ public class EX31_Novo_Comercio {
         double[] valor = new double[30];
         double index = 0;
         int i = 0;
+        double meuDinheiro = 100.00;
         while (opcao != 0) {
             System.out.print("Somar? ");
             opcao = sc.nextInt();
             if (opcao == 0) {
-                System.out.printf("Valor total: R$%.2f", total);
+                System.out.printf("\nValor total: R$%.2f", total);
+                System.out.printf("\nQuantidade de dinheiro: R$%.2f\nTroco: R$%.2f", meuDinheiro,
+                        (meuDinheiro - total));
                 System.out.println("\nPrograma encerrado");
                 break;
             } else {
@@ -29,7 +32,7 @@ public class EX31_Novo_Comercio {
 
                     System.out.printf("\n%d - R$%.2f", i, valor[i]);
                 }
-                System.out.printf("\nValor total: R$%.2f", total);
+               
                 System.out.println("\nPROGRAMA ENCERRADO");
             }
         }
