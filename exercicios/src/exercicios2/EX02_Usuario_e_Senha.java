@@ -3,35 +3,40 @@ package exercicios2;
 import java.util.Scanner;
 
 public class EX02_Usuario_e_Senha {
-    public static void User_Password() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boolean usuarioAtivo = false;
+        boolean login = false;
+        String user = "Tay";
+        String password = "9313";
 
-        while (!usuarioAtivo) {
-            System.out.print("\nUsuário: ");
-            String usuario = sc.nextLine();
-            System.out.print("\nSenha: ");
+        while (!login) {
+            System.out.print("Digite o seu usúario: ");
+            String usuario =  sc.nextLine();
+            System.out.print("Digite a sua chave de acesso: ");
             String senha = sc.nextLine();
-            String password = senha;
-            String user = usuario;
 
-            if (usuario.equals("taylor") && senha.equalsIgnoreCase("12345")) {
-                System.out.print("Login bem sucedido");
-                break;
-            } else if (usuario.equalsIgnoreCase(senha) && senha.equalsIgnoreCase(senha)) {
-                System.out.print("Usuário não pode ser o mesmo que senha!");
-            } else if (!usuario.equalsIgnoreCase("taylor") && !senha.equalsIgnoreCase("12345")) {
-                System.out.print("Usuário e senha inválidos");
-            } else if (!usuario.equalsIgnoreCase("taylor")) {
+            if(usuario.equalsIgnoreCase(user) && senha.equalsIgnoreCase(password)){
+                Limpar();
+                System.out.print("Login bem sucedido\nUsuário:  ***\nSenha: *** ");break;
+            }if(usuario.equalsIgnoreCase(senha)){
+                System.out.print("\nO usuário não pode ser iguais\n");
+                Limpar();
+            }
+            else if(!usuario.equalsIgnoreCase(user) && !senha.equalsIgnoreCase(password)){
+                System.out.println("\nUsuario e senha inválido\n");
+                Limpar();
+            }
+            else if(!usuario.equalsIgnoreCase(user)){
                 System.out.print("Usuário inválido");
-            } else if (!senha.equalsIgnoreCase("12345")) {
+                Limpar();
+            }else if(!senha.equalsIgnoreCase(password)){
                 System.out.print("Senha inválida");
+                Limpar();
             }
         }
-        System.out.print("\nPROGRAMA ENCERRADO");
     }
-
-    public static void main(String[] args) {
-        User_Password();
+    public static void Limpar(){
+        System.out.flush();
+        System.out.print("\n----------------------------------------------------\n");
     }
 }
